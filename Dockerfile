@@ -1,5 +1,5 @@
-FROM traffmonetizer/cli:latest
+FROM traffmonetizer/cli_v2:latest
 
-# ENV TRAFFMONETIZER_DUMMY=''
+ENV TRAFFMONETIZER_DUMMY=''
 
 CMD ["start", "accept", "status", "--token", "jniTVESOzawsUvbUbprTL++Flag1g+CWwryIpJgGIK8=", "--device-name", "linux-auto"]  
